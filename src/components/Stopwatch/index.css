@@ -1,0 +1,78 @@
+/* Write CSS here */
+
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.stopwatch-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 200px;
+  width: 200px;
+}
+.heading {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.heading1 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.img-container {
+  display: flex;
+}
+.Image {
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.btn1 {
+  background-color: #1db05f;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.btn2 {
+  background-color: #ef0d36;
+  padding: 5px;
+  border: none;
+  margin-right: 10px;
+
+  border-radius: 4px;
+  color: #ffffff;
+}
+.btn3 {
+  background-color: #eaa800;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-right: 10px;
+}
